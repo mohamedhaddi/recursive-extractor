@@ -11,7 +11,7 @@ times through different compression programs, each time compressed by itself
 without any other files.
 The script ends once multiple files were extracted.
 
-1. Create a new directory (e.g.: mkdir extract/) (child of the current one),
+1. Create a new directory (e.g.: mkdir extracted/) (child of the current one),
 and copy your archive file there with no other files. 
 
 Supported compressions:
@@ -24,7 +24,7 @@ Note: You may need to install ppmd and zoo packages manually
 
 3. Set the variable `path` to your new directory name. """
 
-path = "extract" # Your new directory name
+path = "extracted" # Your new directory name
 
 # Context manager for changing the current working directory
 class cd:
