@@ -20,6 +20,6 @@ This script only works with single files that have been compressed multiple time
 ```
 
 
-3. Set the variable `path` in [extract.py](https://github.com/mohamedhaddi/recursive-extractor/blob/master/extract.py) to your new directory name (default is `path = "extracted"`).
+3. Set the value of `path` in [extract.py](https://github.com/mohamedhaddi/recursive-extractor/blob/master/extract.py) to your new directory name (default is `path = "extracted"`).
 
 4. Run `./extract.py`.
